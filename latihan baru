@@ -1,0 +1,14 @@
+# fahrenheit to kelvin
+fahrenheit =float(input("masukan dalam farenheit:"))
+print("suhu sekarang","farenheit","farenheit")
+
+# kelvin
+kelvin =(5/9*(fahrenheit-32))+273
+print("suhu sekarang","kelvin","kelvin")
+
+# kelvin to fahrenheit
+kelvin =float(input('masukan dalam kelvin :'))
+print("suhu sekarang","kelvin" "kelvin")
+#fahrenheit
+fahrenheit=(9/5*(kelvin-273))+32
+print("suhu sekarang","fahrenheit",fahrenheit)
